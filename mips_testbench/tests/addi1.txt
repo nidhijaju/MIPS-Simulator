@@ -1,0 +1,5 @@
+#,addi1,addi,254,,fth2817,check negative addi
+
+addi $2, $0, -2
+jr $0
+nop

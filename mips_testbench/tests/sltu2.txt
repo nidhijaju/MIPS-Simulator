@@ -1,0 +1,9 @@
+#,sltu2,sltu,0,,nj2317,equal numbers
+
+addi $7, $0, -53
+addi $26, $0, -53
+
+sltu $2, $26, $7
+
+jr $0
+nop

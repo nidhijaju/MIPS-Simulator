@@ -1,0 +1,8 @@
+#,mfhi2,mfhi,13,,nj2317,mfhi after mthi
+
+addi $6, $0, 13
+mthi $6
+mfhi $2
+
+jr $0
+nop

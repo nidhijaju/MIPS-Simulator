@@ -1,0 +1,18 @@
+#,mult5,mult,26,,nj2317,32bit mult hi
+
+lui $3, 0x50D5
+ori $3, $3, 2
+lui $8, 0x3A35
+ori $8, $8, 4
+
+mult $3, $8
+mfhi $2
+
+jr $0
+nop
+
+
+#checking hi
+#checking lo
+#no exceptions
+#checking signed

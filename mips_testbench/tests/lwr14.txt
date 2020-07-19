@@ -1,0 +1,6 @@
+#,lwr14,lwr,245,,fth2817,read from outside getchar
+lui $4, 0x3000
+lwr $5, 4($4)
+nop
+jr $0
+nop

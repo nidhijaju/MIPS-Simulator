@@ -1,0 +1,10 @@
+#,sb1,sb,245,,nj2317,storing to out of range
+
+lui $3, 0x2400
+addi $5, $0, 0x34
+sb $5, 0($3)
+lw $2, 0($3)
+nop
+
+jr $0
+nop

@@ -1,0 +1,6 @@
+#,add4,add,0,,fth2817,check r0
+
+addi $0, $0, 10
+add $2, $0, $0
+jr $0
+nop

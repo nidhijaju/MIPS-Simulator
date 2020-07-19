@@ -1,0 +1,11 @@
+#,bne2,bne,10,,fth2817,branch backwards
+addi $10, $0, 2
+addi $11, $0, 12
+addi $3, $0, 10
+nop
+b:
+addi $2, $2, 5
+bne $3, $2, b
+nop
+jr $0
+nop

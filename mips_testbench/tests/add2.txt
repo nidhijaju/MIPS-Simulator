@@ -1,0 +1,7 @@
+#,add2,add,242,,fth2817,simple negative add
+
+addi $1, $0, -5
+addi $3, $0, -9
+add $2, $1, $3
+jr $0
+nop

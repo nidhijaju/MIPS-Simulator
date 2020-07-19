@@ -1,0 +1,8 @@
+#,sltiu1,sltiu,0,,nj2317,positive numbers
+
+addi $7, $0, 23405
+
+sltiu $2, $7, 1312903
+
+jr $0
+nop

@@ -1,0 +1,9 @@
+#,lb3,lb,245,,fth2817,read from outside data memory
+addi $3, $3, 0x20
+lui $4, 0x2400
+nop
+sw $3, 0($4)
+lb $2, 0($4)
+nop
+jr $0
+nop

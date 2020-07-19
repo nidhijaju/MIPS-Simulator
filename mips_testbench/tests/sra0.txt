@@ -1,0 +1,8 @@
+#,sra0,sra,71,,nj2317,simple sra
+
+lui $6, 0x243
+addi $6, $0, 0xF47E
+sra $2, $6, 4
+
+jr $0
+nop

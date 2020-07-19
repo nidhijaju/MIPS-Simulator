@@ -1,0 +1,11 @@
+#,jal1,jal,5,,fth2817,jump backwards
+
+jal 0x20
+nop
+addi $2, $2, 5
+nop
+addi $2, $2, 5
+nop
+jr $0
+nop
+jal 0x10

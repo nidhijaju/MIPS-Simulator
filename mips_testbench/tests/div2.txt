@@ -1,0 +1,10 @@
+#,div2,div,2,,nj2317,simple negative div answer
+
+addi $3, $0, -10
+addi $6, $0, -5
+
+div $3, $6
+mflo $2
+
+jr $0
+nop

@@ -1,0 +1,10 @@
+#,div5,div,254,,nj2317,simple pos+neg div
+
+addi $3, $0, 10
+addi $6, $0, -4
+
+div $3, $6
+mflo $2
+
+jr $0
+nop

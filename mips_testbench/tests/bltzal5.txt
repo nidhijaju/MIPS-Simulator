@@ -1,0 +1,21 @@
+#,bltzal5,bltzal,1,,fth2817,linking to R31 if branch is not taken
+
+addi $3, $0, 5
+addi $4, $0, 1
+addi $2, $0, 1
+bgezal $3, b
+nop
+addi $2, $2, 1
+bgez $4, a
+nop
+jr $0
+nop
+a:
+nop
+addi $4, $0, -5
+addi $2, $2, 5
+jr $31
+nop
+b:
+jr $0
+nop

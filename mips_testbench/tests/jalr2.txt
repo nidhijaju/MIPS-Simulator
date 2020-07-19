@@ -1,0 +1,11 @@
+#,jalr2,jalr,2,,fth2817,jump to return value
+lui $1, 0x1000
+addi $2, $2, 1
+addi $1, $1, 0x1C
+jalr $31, $1
+nop
+addi $2, $2, 1
+nop
+addi $2, $2, 1
+jalr $31, $0
+nop

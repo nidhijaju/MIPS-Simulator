@@ -1,0 +1,6 @@
+#,addiu3,addiu,0xff,,fth2817,check if sign extended
+
+addiu $3, $0, -5
+srl $2, $3, 0x10
+jr $0
+nop

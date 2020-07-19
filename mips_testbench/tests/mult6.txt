@@ -1,0 +1,12 @@
+#,mult6,mult,15,,nj2317,32bit neg mult lo
+
+lui $3, 0xF0D5
+ori $3, $3, 5
+lui $8, 0xAA35
+ori $8, $8, 3
+
+mult $3, $8
+mflo $2
+
+jr $0
+nop

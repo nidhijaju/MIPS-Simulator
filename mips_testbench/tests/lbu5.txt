@@ -1,0 +1,6 @@
+#,lbu5,lbu,0,/,fth2817,read from getc offset 1
+lui $4, 0x3000
+lbu $2, 1($4)
+nop
+jr $0
+nop

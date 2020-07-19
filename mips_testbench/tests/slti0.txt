@@ -1,0 +1,8 @@
+#,slti0,slti,1,,nj2317,less than
+
+addi $7, $0, 723
+
+slti $2, $7, 10000
+
+jr $0
+nop

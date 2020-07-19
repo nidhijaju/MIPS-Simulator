@@ -1,0 +1,10 @@
+#,bltzal1,bltzal,1,,fth2817,branch taken
+
+addi $3, $0, -5
+addi $2, $0, 1
+bltzal $3, a
+nop
+addi $2, $2, 1
+a:
+jr $0
+nop

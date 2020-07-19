@@ -1,0 +1,10 @@
+#,bgezal2,bgezal,6,,fth2817,branch backwards
+
+addi $3, $0, 5
+a:
+addi $3, $3, -1
+addi $2, $2, 1
+bgezal $3, a
+nop
+jr $0
+nop

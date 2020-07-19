@@ -1,0 +1,8 @@
+#,lhu2,lhu,16,,fth2817,read from data memory
+lui $4, 0x2000
+lui $3, 0x10
+sw $3, 0($4)
+lhu $2, 0($4)
+nop
+jr $0
+nop

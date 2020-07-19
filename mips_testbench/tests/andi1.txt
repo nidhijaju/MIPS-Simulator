@@ -1,0 +1,8 @@
+#,andi1,andi,0,,fth2817,not sign extended
+
+lui $1, 0x0FFF
+nop
+andi $3, $1, 0xFF00
+srl $2, $3, 0x10
+jr $0
+nop

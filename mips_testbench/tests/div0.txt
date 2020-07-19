@@ -1,0 +1,10 @@
+#,div0,div,3,,nj2317,simple positive div answer
+
+addi $3, $0, 36
+addi $6, $0, 12
+
+div $3, $6
+mflo $2
+
+jr $0
+nop

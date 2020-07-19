@@ -1,0 +1,14 @@
+#,beq3,beq,7,,fth2817,branch delay
+
+addi $4, $0, 10
+addi $2, $0, 1
+beq $4, $4, a
+add $2, $2, $2
+add $2, $2, $2
+jr $0
+nop
+a:
+nop
+addi $2, $2, 5
+jr $0
+nop

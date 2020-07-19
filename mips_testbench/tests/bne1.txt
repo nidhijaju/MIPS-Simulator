@@ -1,0 +1,23 @@
+#,bne1,bne,5,,fth2817,branch not taken
+
+addi $3, $0, 9
+addi $4, $0, 10
+addi $2, $0, 1
+bne $3, $4, a
+nop
+jr $0
+nop
+nop
+a:
+nop
+addi $2, $0, 5
+bne $2, $4, b
+nop
+bne $4, $2, b
+nop
+add $2, $2, $2
+jr $0
+nop
+b:
+jr $0
+nop

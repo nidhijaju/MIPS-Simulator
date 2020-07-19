@@ -1,0 +1,10 @@
+#,jal3,jal,8,,fth2817,check link
+
+jal 0x10
+nop
+addi $2, $2, 5
+nop
+addi $2, $2, 5
+add $2, $0, $31
+jr $0
+nop

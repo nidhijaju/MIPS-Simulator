@@ -1,0 +1,9 @@
+#,sllv1,sll,32,,nj2317,simple sllv 
+
+addi $6, $0, 0x549
+addi $3, $0, 5
+
+sllv $2, $6, $3
+
+jr $0
+nop

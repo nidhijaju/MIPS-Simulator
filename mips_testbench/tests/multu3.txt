@@ -1,0 +1,10 @@
+#,multu3,multu,16,,nj2317,simple pos+neg multu hi
+
+addi $3, $0, -5
+addi $8, $0, 17
+
+multu $3, $8
+mfhi $2
+
+jr $0
+nop

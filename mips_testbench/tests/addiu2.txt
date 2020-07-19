@@ -1,0 +1,5 @@
+#,addiu2,addiu,1,,fth2817,addiu negative + positive values
+addiu $3, $0, -4
+addiu $2, $3, 5
+jr $0
+nop

@@ -1,0 +1,10 @@
+#,divu1,divu,0,,nj2317,simple positive divu remainder 0
+
+addi $3, $0, 36
+addi $6, $0, 12
+
+divu $3, $6
+mfhi $2
+
+jr $0
+nop

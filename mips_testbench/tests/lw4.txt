@@ -1,0 +1,6 @@
+#,lw4,lw,47,/,fth2817,getc
+lui $4, 0x3000
+lw $2, 0($4)
+nop
+jr $0
+nop

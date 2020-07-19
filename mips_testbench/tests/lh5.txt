@@ -1,0 +1,9 @@
+#,lh5,lh,255,,fth2817,sign extended
+lui $4, 0x2000
+addi $3, $0, 0xf000
+sw $3, 0($4)
+lh $2, 2($4)
+nop
+srl $2, $2, 16
+jr $0
+nop

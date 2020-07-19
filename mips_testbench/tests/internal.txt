@@ -1,0 +1,37 @@
+#,internal,internal,127,,nj2317,internal
+
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+nop
+addi $2, $4, 127
+jr $0
+nop

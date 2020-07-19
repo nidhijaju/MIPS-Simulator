@@ -1,0 +1,12 @@
+#,mult4,mult,8,,nj2317,32bit mult lo
+
+lui $3, 0x50D5
+ori $3, $3, 2
+lui $8, 0x3A35
+ori $8, $8, 4
+
+mult $3, $8
+mflo $2
+
+jr $0
+nop

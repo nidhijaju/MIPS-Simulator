@@ -1,0 +1,10 @@
+#,mult1,mult,0,,nj2317,simple mult hi
+
+addi $4, $0, 5
+addi $7, $0, 17
+
+mult $4, $7
+mfhi $2
+
+jr $0
+nop

@@ -1,0 +1,7 @@
+#,addiu4,addiu,0,,fth2817,addiu overflow
+lui $3, 0x7FFF
+nop
+ori $3, $3, 0xFFFF
+addiu $2, $3, 1
+jr $0
+nop

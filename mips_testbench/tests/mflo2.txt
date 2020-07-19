@@ -1,0 +1,8 @@
+#,mflo2,mflo,153,,nj2317,mflo after mtlo
+
+addi $6, $0, 153
+mtlo $6
+mflo $2
+
+jr $0
+nop

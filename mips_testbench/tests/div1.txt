@@ -1,0 +1,10 @@
+#,div1,div,0,,nj2317,simple positive div remainder 0
+
+addi $3, $0, 36
+addi $6, $0, 12
+
+div $3, $6
+mfhi $2
+
+jr $0
+nop

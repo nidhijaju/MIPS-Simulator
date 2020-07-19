@@ -1,0 +1,8 @@
+#,xor0,xor,116,,nj2317,simple xor
+
+addi $5, $0, 0xF43B
+addi $6, $0, 0x104F
+
+xor $2, $5, $6
+jr $0
+nop

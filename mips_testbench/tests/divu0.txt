@@ -1,0 +1,10 @@
+#,divu0,divu,3,,nj2317,simple positive divu answer
+
+addi $3, $0, 36
+addi $6, $0, 12
+
+divu $3, $6
+mflo $2
+
+jr $0
+nop

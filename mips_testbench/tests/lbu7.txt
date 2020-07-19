@@ -1,0 +1,6 @@
+#,lbu7,lbu,255,,fth2817,getc EOF
+lui $4, 0x3000
+lbu $2, 3($4)
+nop
+jr $0
+nop

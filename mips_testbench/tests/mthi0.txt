@@ -1,0 +1,14 @@
+#,mthi0,mthi,24,,nj2317,mthi after mult
+
+addi $4, $0, 5
+addi $7, $0, 17
+
+mult $4, $7
+
+addi $6, $0, 24
+mthi $6
+
+mfhi $2
+
+jr $0
+nop

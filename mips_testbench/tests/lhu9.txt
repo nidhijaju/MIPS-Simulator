@@ -1,0 +1,7 @@
+#,lhu9,lhu,255,,fth2817,getc EOF
+lui $4, 0x3000
+lhu $2, 2($4)
+nop
+srl $2, $2, 8
+jr $0
+nop

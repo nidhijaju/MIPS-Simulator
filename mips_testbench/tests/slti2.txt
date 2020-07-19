@@ -1,0 +1,8 @@
+#,slti2,slti,1,,nj2317,negative numbers
+
+addi $7, $0, -582
+
+slti $2, $7, -98
+
+jr $0
+nop

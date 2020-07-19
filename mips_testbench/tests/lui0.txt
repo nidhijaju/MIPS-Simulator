@@ -1,0 +1,7 @@
+#,lui0,lui,0x43,,nj2317,simple lui
+
+lui $6, 0x243
+srl $2, $6, 16
+
+jr $0
+nop

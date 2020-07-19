@@ -1,0 +1,13 @@
+#,srlv1,srlv,0,,nj2317,some srlvs
+
+lui $6, 0xFE43
+addi $6, $0, 0xF47E
+
+addi $7, $0, 5
+srlv $6, $6, $7
+
+addi $13, $7, 24
+srlv $2, $6, $13
+
+jr $0
+nop

@@ -1,0 +1,5 @@
+#,addiu0,addiu,3,,fth2817,simple addiu
+
+addiu $2, $0, 3
+jr $0
+nop

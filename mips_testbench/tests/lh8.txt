@@ -1,0 +1,6 @@
+#,lh8,lh,245,/,fth2817,read from outside getchar addr
+lui $4, 0x3000
+lh $2, 4($4)
+nop
+jr $0
+nop

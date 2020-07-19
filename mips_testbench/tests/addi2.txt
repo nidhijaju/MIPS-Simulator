@@ -1,0 +1,6 @@
+#,addi2,addi,0xff,,fth2817,check if sign extended
+
+addi $3, $0, -2
+srl $2, $3, 0x10
+jr $0
+nop

@@ -1,0 +1,9 @@
+#,slt1,slt,0,,nj2317,simple slt
+
+addi $7, $0, 723
+addi $26, $0, 25
+
+slt $2, $7, $26
+
+jr $0
+nop

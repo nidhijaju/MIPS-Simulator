@@ -1,0 +1,10 @@
+#,blez0,blez,2,,fth2817,branch not taken
+
+addi $3, $0, 5
+addi $2, $0, 1
+blez $3, a
+nop
+addi $2, $2, 1
+a:
+jr $0
+nop

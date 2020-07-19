@@ -1,0 +1,7 @@
+#,ori1,ori,255,,nj2317,not sign extended
+
+lui $1, 0x0FFF
+ori $3, $1, 0xFF00
+srl $2, $3, 0x10
+jr $0
+nop

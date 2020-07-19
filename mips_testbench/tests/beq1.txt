@@ -1,0 +1,22 @@
+#,beq1,beq,2,,fth2817,branch taken
+
+addi $3, $0, 10
+addi $4, $0, 10
+addi $2, $0, 1
+beq $3, $4, a
+nop
+jr $0
+nop
+nop
+a:
+nop
+beq $2, $4, b
+nop
+beq $4, $2, b
+nop
+add $2, $2, $2
+jr $0
+nop
+b:
+jr $0
+nop

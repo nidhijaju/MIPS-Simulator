@@ -1,0 +1,6 @@
+#,andi0,andi,2,,nj2317,simple andi
+
+addi $1, $0, 10
+andi $2, $1, 3
+jr $0
+nop

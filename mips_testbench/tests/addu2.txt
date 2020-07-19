@@ -1,0 +1,7 @@
+#,addu2,addu,249,,fth2817,simple negative addu
+
+addi $1, $0, -5
+addi $3, $0, -2
+addu $2, $1, $3
+jr $0
+nop

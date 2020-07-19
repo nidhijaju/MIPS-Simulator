@@ -1,0 +1,7 @@
+#,sll1,sll,0,,nj2317,simple sll 2
+
+addi $6, $6, 0x549
+sll $2, $6, 31
+
+jr $0
+nop

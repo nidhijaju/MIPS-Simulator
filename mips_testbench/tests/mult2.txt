@@ -1,0 +1,10 @@
+#,mult2,mult,171,,nj2317,simple pos+neg mult lo
+
+addi $3, $0, -5
+addi $8, $0, 17
+
+mult $3, $8
+mflo $2
+
+jr $0
+nop

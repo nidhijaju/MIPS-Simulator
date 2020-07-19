@@ -1,0 +1,8 @@
+#,sltiu2,sltiu,0,,nj2317,equal numbers
+
+addi $7, $0, -653
+
+sltiu $2, $7, -653
+
+jr $0
+nop

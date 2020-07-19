@@ -1,0 +1,9 @@
+#,lbu8,lbu,0,,fth2817,zero extend value
+lui $4, 0x2000
+addi $3, $0, 0x00AF
+sw $3, 0($4)
+lbu $2, 3($4)
+nop
+srl $2, $2, 16
+jr $0
+nop

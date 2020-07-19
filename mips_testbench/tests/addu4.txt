@@ -1,0 +1,8 @@
+#,addu4,addu,0xfe,,nj2317,addu ignored overflow 2
+
+lui $3, 0x8000
+nop
+addi $6, $0, -2
+addu $2, $3, $6
+jr $0
+nop

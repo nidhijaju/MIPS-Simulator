@@ -1,0 +1,7 @@
+#,sub3,sub,247,,nj2317,negative-positive 
+
+addi $1, $0, -5
+addi $3, $0, 4
+sub $2, $1, $3
+jr $0
+nop

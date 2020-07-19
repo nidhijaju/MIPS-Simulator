@@ -1,0 +1,10 @@
+#,div9,div,255,,nj2317,neg div by pos remainder
+
+addi $6, $0, -13
+addi $3, $0, 3
+
+div $6, $3
+mfhi $2
+
+jr $0
+nop

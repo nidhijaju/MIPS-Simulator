@@ -1,0 +1,6 @@
+#,jr2,jr,245,,fth2817,jump to illegal addr
+
+lui $1, 0x1100
+nop
+jr $1
+nop

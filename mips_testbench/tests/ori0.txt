@@ -1,0 +1,6 @@
+#,ori0,ori,11,,nj2317,simple ori
+
+addi $1, $0, 10
+ori $2, $1, 3
+jr $0
+nop

@@ -1,0 +1,11 @@
+#,srav1,srav,255,,nj2317,some sravs
+
+lui $6, 0xFE43
+addi $6, $0, 0xF47E
+addi $7, $0, 5
+srav $6, $6, $7
+addi $13, $7, 24
+srav $2, $6, $13
+
+jr $0
+nop

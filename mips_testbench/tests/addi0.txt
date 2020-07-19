@@ -1,0 +1,5 @@
+#,addi0,addi,10,,fth2817,simple addi
+
+addi $2, $0, 10
+jr $0
+nop

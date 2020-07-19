@@ -1,0 +1,14 @@
+#,mtlo0,mtlo,85,,nj2317,mtlo after mult
+
+addi $4, $0, 5
+addi $7, $0, 17
+
+mult $4, $7
+
+addi $6, $0, 85
+mtlo $6
+
+mflo $2
+
+jr $0
+nop

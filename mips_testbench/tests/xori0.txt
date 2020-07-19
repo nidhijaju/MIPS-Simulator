@@ -1,0 +1,6 @@
+#,xori0,xori,9,,nj2317,simple xori
+
+addi $1, $0, 10
+xori $2, $1, 3
+jr $0
+nop

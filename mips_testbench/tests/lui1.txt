@@ -1,0 +1,10 @@
+#,lui1,lui,0,,nj2317,check lower 16 bits are 0
+
+lui $6, 0x243
+srl $7, $6, 8
+
+addi $14, $0, 0
+or $2, $14, $7
+
+jr $0
+nop

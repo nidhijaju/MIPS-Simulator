@@ -1,0 +1,6 @@
+#,lhu6,lhu,245,,fth2817,read from outside data memory
+lui $4, 0x2400
+lhu $2, 0($4)
+nop
+jr $0
+nop

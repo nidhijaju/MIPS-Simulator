@@ -1,0 +1,20 @@
+#,bgez1,bgez,5,,fth2817,branch taken
+
+addi $3, $0, 10
+addi $2, $0, 1
+bgez $3, a
+nop
+jr $0
+nop
+a:
+nop
+addi $3, $0, -1
+bgez $3, b
+nop
+addi $2, $0, 5
+jr $0
+nop
+b:
+nop
+jr $0
+nop

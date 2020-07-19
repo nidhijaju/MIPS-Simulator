@@ -1,0 +1,8 @@
+#,srl0,srl,71,,nj2317,simple srl
+
+lui $6, 0x243
+addi $6, $0, 0xF47E
+srl $2, $6, 4
+
+jr $0
+nop

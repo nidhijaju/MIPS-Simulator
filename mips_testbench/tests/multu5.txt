@@ -1,0 +1,12 @@
+#,multu5,multu,26,,nj2317,32bit multu hi
+
+lui $3, 0x50D5
+ori $3, $3, 2
+lui $8, 0x3A35
+ori $8, $8, 4
+
+multu $3, $8
+mfhi $2
+
+jr $0
+nop

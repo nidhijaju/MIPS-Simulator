@@ -1,0 +1,10 @@
+#,sw0,sw,245,,fth2817,store to inst memory
+lui $3, 0x6791
+addi $3, $3, 0x2201
+lui $4, 0x1000
+sw $3, 0($4)
+lw $2, 0($4)
+nop
+srl $2, $2, 8
+jr $0
+nop

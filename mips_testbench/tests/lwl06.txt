@@ -1,0 +1,15 @@
+#,lwl06,lwl,129,,fth2817,read from data memory
+addi $19, $17, 0xADA6
+lui $4, 0x2000
+lui $5, 0x65A8
+addi $5, $5, 0xADAA
+lui $7, 0xa618
+addi $7, $7, 0x46a8 
+sw $7, 0($4)
+lwl $5, 2($4)
+nop
+srl $6, $5, 10 
+xor $2, $6, $5
+jr $0
+nop
+

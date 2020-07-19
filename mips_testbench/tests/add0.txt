@@ -1,0 +1,7 @@
+#,add0,add,15,,nj2317,simple add
+
+addi $1, $0, 10
+addi $3, $0, 5
+add $2, $1, $3
+jr $0
+nop

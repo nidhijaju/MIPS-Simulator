@@ -1,0 +1,6 @@
+#,lw7,lw,245,,fth2817,unaligned
+lui $4, 0x3000
+lw $2, 1($4)
+nop
+jr $0
+nop

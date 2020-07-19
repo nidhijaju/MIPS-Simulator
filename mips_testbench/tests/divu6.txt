@@ -1,0 +1,10 @@
+#,divu6,divu,10,,nj2317,simple pos+neg divu remainder
+
+addi $3, $0, 10
+addi $6, $0, -4
+
+divu $3, $6
+mfhi $2
+
+jr $0
+nop

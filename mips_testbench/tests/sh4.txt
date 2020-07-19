@@ -1,0 +1,11 @@
+#,sh4,sh,245,,fth2817,store to getc memory
+lui $3, 0x6791
+addi $3, $3, 0x2201
+lui $4, 0x3000
+sh $3, 0($4)
+lw $4, 0($4)
+nop
+srl $3, $4, 4
+xor $2, $3, $4
+jr $0
+nop

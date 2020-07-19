@@ -1,0 +1,8 @@
+#,or0,or,127,,nj2317,simple or
+
+addi $5, $0, 0xF43B
+addi $6, $0, 0x104F
+
+or $2, $5, $6
+jr $0
+nop

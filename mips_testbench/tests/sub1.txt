@@ -1,0 +1,8 @@
+#,sub1,sub,254,,nj2317,large sub
+
+addi $1, $0, 1
+lui $3, 0x7FFF
+ori $3, $3, 0xFFFF
+sub $2, $3, $1
+jr $0
+nop

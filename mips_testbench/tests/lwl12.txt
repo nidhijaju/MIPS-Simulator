@@ -1,0 +1,6 @@
+#,lwl12,lwl,245,,fth2817,read from outside inst memory
+lui $4, 0x1100
+lwl $5, 0($4)
+nop
+jr $0
+nop

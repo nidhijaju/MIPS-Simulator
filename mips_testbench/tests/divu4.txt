@@ -1,0 +1,10 @@
+#,divu4,divu,2,,nj2317,simple divu
+
+addi $4, $0, 11
+addi $3, $0, 4
+
+divu $4, $3
+mflo $2
+
+jr $0
+nop

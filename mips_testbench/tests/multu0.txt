@@ -1,0 +1,10 @@
+#,multu0,multu,85,,nj2317,simple multu lo
+
+addi $4, $0, 5
+addi $7, $0, 17
+
+multu $4, $7
+mflo $2
+
+jr $0
+nop

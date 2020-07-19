@@ -1,0 +1,54 @@
+#!/bin/bash
+: > log.csv
+
+FILES="mips_testbench/tests/*"
+
+for F in $FILES
+do
+  bin/parser $F "mips_testbench/binaries/#"
+done
+
+echo -e "Created binaries.\n"
+
+OIFS="$IFS"
+IFS=","
+
+for F in $FILES
+do
+  info_array=()
+  test_status="ERROR"
+  line=$(head -n 1 $F)
+
+  for word in $line; do
+    info_array+=("$word")
+  done
+
+  (printf ${info_array[4]})|$1 "mips_testbench/binaries/${info_array[1]}.bin"
+  var=$?
+  if (($var == ${info_array[3]})); then  #return value
+    test_status="PASS"
+  else
+    test_status="FAIL"
+  fi
+  printf ${info_array[1]},${info_array[2]},$test_status,${info_array[5]},${info_array[6]} >> log.csv
+  printf ",$var" >> log.csv
+ 
+ FILES2="mips_testbench/testbenches/*"
+
+  for T in $FILES2
+  do
+    (printf ${info_array[4]})|$T "mips_testbench/binaries/${info_array[1]}.bin"
+    printf ",$?" >> log.csv
+  done
+  echo >> log.csv
+done
+
+echo test
+printf ",,,,,,">> log.csv
+for T in $FILES2
+do
+  printf "${T:27:-5}," >> log.csv
+done
+
+OIFS="$IFS"
+IFS="$OIFS"

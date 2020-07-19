@@ -1,0 +1,8 @@
+#,lb0,lb,32,,fth2817,read from inst memory
+addi $3, $3, 0x20
+lui $4, 0x1000
+nop
+lb $2, 3($4)
+nop
+jr $0
+nop

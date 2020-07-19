@@ -1,0 +1,9 @@
+#,div7,div,17,,nj2317,div by 0
+
+addi $3, $0, 5
+addi $2, $0, 17
+
+div $3, $0
+
+jr $0
+nop

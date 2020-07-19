@@ -1,0 +1,9 @@
+#,sra1,sra,255,,nj2317,some sras
+
+lui $6, 0xF563
+addi $6, $0, 0xE472
+sra $7, $6, 4
+sra $2, $7, 23
+
+jr $0
+nop

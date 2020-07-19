@@ -1,0 +1,5 @@
+#,jalr1,jalr,8,,fth2817,delayed branch
+
+jalr $31, $0
+add $2, $0, $31
+nop

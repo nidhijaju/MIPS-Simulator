@@ -1,0 +1,12 @@
+#,mfhi0,mfhi,155,,nj2317,mfhi after multu
+
+lui $3, 0xF13E
+ori $3, $3, 5
+lui $8, 0xE9F6
+ori $8, $8, 3
+
+multu $3, $8
+mfhi $2
+
+jr $0
+nop

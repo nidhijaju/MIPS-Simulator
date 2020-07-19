@@ -1,0 +1,10 @@
+#,j0,j,5,,fth2817,jump forwards
+
+j 0x10
+nop
+addi $2, $2, 5
+nop
+addi $2, $2, 5
+nop
+jr $0
+nop

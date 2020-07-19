@@ -1,0 +1,10 @@
+#,bgezal3,bgezal,2,,fth2817,branch delay
+
+addi $3, $0, 5
+addi $2, $2, 1
+bgezal $3, a
+addi $2, $2, 1
+nop
+a:
+jr $0
+nop

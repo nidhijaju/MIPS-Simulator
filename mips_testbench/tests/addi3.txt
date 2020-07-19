@@ -1,0 +1,7 @@
+#,addi3,addi,246,,fth2817,addi overflow
+lui $3, 0x7FFF
+nop
+ori $3, $3, 0xFFFF
+addi $2, $3, 1
+jr $0
+nop

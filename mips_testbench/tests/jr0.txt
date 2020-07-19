@@ -1,0 +1,4 @@
+#,jr0,jr,0,,fth2817,jump to r0
+
+jr $0
+nop

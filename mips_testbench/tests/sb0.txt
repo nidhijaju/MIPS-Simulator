@@ -1,0 +1,10 @@
+#,sb0,sb,0x34,,nj2317,storing to safe position
+
+lui $3, 0x2000
+addi $5, $0, 0x34
+sb $5, 3($3)
+lw $2, 0($3)
+nop
+
+jr $0
+nop

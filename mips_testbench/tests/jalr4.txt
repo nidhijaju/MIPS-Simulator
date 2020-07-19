@@ -1,0 +1,8 @@
+#,jalr4,jalr,0x10,,fth2817,linking register
+lui $5, 0x1000
+addi $5, $5, 0x10
+jalr $2, $5
+nop
+srl $2, $2, 24
+jr $0
+nop

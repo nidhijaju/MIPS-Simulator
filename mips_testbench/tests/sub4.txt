@@ -1,0 +1,6 @@
+#,sub4,sub,0,,nj2317,check r0
+
+addi $0, $0, 10
+sub $2, $0, $0
+jr $0
+nop

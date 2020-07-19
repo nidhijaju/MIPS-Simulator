@@ -1,0 +1,11 @@
+#,sb6,sb,0x34,,nj2317,storing to safe no offset
+
+lui $3, 0x2000
+addi $5, $0, 0x34
+sb $5, 0($3)
+lw $2, 0($3)
+nop
+srl $2, $2, 24
+
+jr $0
+nop

@@ -1,0 +1,10 @@
+#,sb3,sb,245,,nj2317,store to getchar
+
+lui $3, 0x3000
+addi $5, $0, 0x47
+sb $5, 3($3)
+lw $2, 0($3)
+nop
+
+jr $0
+nop
