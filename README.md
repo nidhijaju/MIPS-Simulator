@@ -19,4 +19,4 @@ This will run the simulator against all the tests. Ideal simulator passes all te
 
 ## Acknowledgements
 
-The project was done in collaboration with Toby Hilier (tobhil98).
+The project was done in collaboration with Toby Hillier (tobhil98).
